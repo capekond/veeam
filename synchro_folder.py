@@ -1,12 +1,4 @@
-# installation:
-# alias synchro_folder="python3 /home/ln304/PycharmExt/veenam/synchro_folder.py" NOT WORK
-
-# 1989  crontab -l > mycron
-# 1990  echo "*/5 * * * * synchro_folder -a execute -s /home/ln304/Documents -t /home/ln304/Documents_Sync -c # JOB_ID_1" >> mycron
-# 1992  crontab mycron
-# 1993  crontab -l
-# crontab -l > mycron ; echo "*/5 * * * * python3 /home/ln304/PycharmExt/veenam/synchro_folder.py -a execute -s /home/ln304/Documents -t /home/ln304/Documents_Sync -c" >> mycron ; crontab mycron
-# python3 /home/ln304/PycharmExt/veenam/synchro_folder.py -a execute -s /home/ln304/Documents -t /home/ln304/Documents_Sync -c
+# python synchro_folder --help
 
 
 import shutil

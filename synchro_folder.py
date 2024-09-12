@@ -1,5 +1,7 @@
 # python synchro_folder --help
-
+# work on linux, use cron
+# keep identical folders and files
+# not update acces rights and ownership
 
 import shutil
 import subprocess
@@ -11,7 +13,6 @@ import logging
 from os.path import isdir, isfile
 from shutil import copy2
 from venv import logger
-
 
 
 class SynchroFolder:
